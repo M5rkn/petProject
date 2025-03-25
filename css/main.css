@@ -1,0 +1,163 @@
+.satellite-img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 0;
+}
+
+.plane-img2 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 0;
+
+}
+
+.microphone-img {
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 0;
+
+}
+
+.supply-img {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards__item {
+    background: white;
+    border-radius: 47px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.cards__item:hover {
+    box-shadow: #000 1px 2px 2px;
+    transform: translateY(-10px);
+}
+
+
+
+.main-subtitle {
+    text-align: center;
+    margin-top: 250px;
+    color: #d3a18b;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.main__big-subtitle {
+    text-align: center;
+    color:#657166;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 86px;
+}
+
+.main__card-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 40px 0 20px 0px;
+    text-align: center;
+}
+
+.main-card-text {
+    padding: 0 0 0 15px;
+    position: relative;
+}
+
+
+.main-subtitle-second {
+    text-align: center;
+    margin-top: 100px;
+    color: #d3a18b;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.main__big-subtitle-second {
+    text-align: center;
+    color:#657166;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 86px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+    width: 418px;
+    height: 610px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    margin-top: 80px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: #000 1px 2px 2px;
+}
+
+.card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 0 20px 0 20px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d3a18b;
+}
+
+.trip-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main__cities-name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 124%;
+}
