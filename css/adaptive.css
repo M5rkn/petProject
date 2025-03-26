@@ -744,6 +744,7 @@
         position: relative;
         left: 0;
     }
+
 }
 
 @media (max-width: 821px) {
@@ -1580,6 +1581,9 @@
     .email-container .footer__email-button {
         position: relative;
         left: 0;
+    }
+    .footer__email-input {
+        width: 130px;
     }
 }
 
