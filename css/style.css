@@ -1,5 +1,9 @@
 body {
 	font-family: 'Poppins';
-	overflow-x: hidden;
+}
+
+html, body {
+	overflow-x: hidden; /* Убираем горизонтальный скролл */
+	max-width: 100%;
 }
 

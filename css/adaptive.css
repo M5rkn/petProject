@@ -39,6 +39,9 @@
     .email-container {
         width: 300px;
     }
+    .footer__email-input {
+        width: 200px;
+    }
     .footer__main-names-left {
         left: -50px;
     }
@@ -406,6 +409,9 @@
         left: -10px;
         top: 0;
     }
+    .footer__email-input {
+        width: 200px;
+    }
     .footer__contact-newsletter {
         left: 360px;
         top: 0px;
@@ -466,6 +472,10 @@
         width: 318px;
         height: 510px;
         left: 0;
+    }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
     }
 }
 
@@ -550,6 +560,9 @@
         left: -10px;
         top: 0;
     }
+    .footer__email-input {
+        width: 200px;
+    }
     .footer__contact-newsletter {
         left: 300px;
         top: 0;
@@ -562,6 +575,10 @@
     .cards {
         position: relative;
         left: 220px;
+    }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
     }
 }
 
@@ -723,6 +740,10 @@
         position: relative;
         left: 170px;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
+    }
 }
 
 @media (max-width: 821px) {
@@ -843,6 +864,10 @@
         left: 170px;
         top: 0;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
+    }
     .footer__contact-company {
         left: 20px;
     }
@@ -929,6 +954,10 @@
     .article__second-city-name {
         top: -190px;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
+    }
     .last__article-section-image3 {
         left: 330px;
         top: -120px;
@@ -964,6 +993,7 @@
         width: 370px;
         margin-top: 70px;
     }
+
 }
 
 @media (max-width: 541px) {
@@ -1058,6 +1088,10 @@
         top: -150px;
         width: 50px;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0;
+    }
     .last__article-section-image2 {
         left: 345px;
         top: -150px;
@@ -1079,6 +1113,9 @@
         position: relative;
         left: -200px;
         top: 460px;
+    }
+    .footer__email-input {
+        width: 200px;
     }
     .footer__contact-newsletter {
         left: 50px;
@@ -1227,6 +1264,10 @@
         position: relative;
         left: 40px;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
+    }
     .footer__ios-app-text {
         position: relative;
         left: 40px;
@@ -1247,7 +1288,7 @@
     .girl-img {
         margin: 100px 0 100px 0;
         left: 10px;
-        top: 1470px;
+        top: 1370px;
         width: 350px;
     }
     .card-container {
@@ -1367,6 +1408,10 @@
     .hero button {
         top: 460px;
     }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0px;
+    }
 }
 
 @media (max-width: 415px) {
@@ -1390,15 +1435,15 @@
         padding-left: 20px;
     }
     .card-icon {
-        left: 0;
+        left: 10px;
         top: 7700px;
         width: 370px;
         margin-top: 70px;
     }
     .card__container-article-second {
-        padding-left: 0;
+        padding-left: 10px;
         position: relative;
-        left: -13px;
+        left: -14px;
     }
     .article__second-header {
         margin-left: 100px;
@@ -1416,17 +1461,17 @@
         margin-left: 60px;
     }
     .last__article-section-block {
-        left: -10px;
+        left: 0px;
         width: 370px;
         height: 650px;
         padding: 230px 0 20px 0;
     }
     .last__article-second-header {
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 30px;
     }
     .last__article-second-photos-title {
-        margin-left: 30px;
+        margin-left: 60px;
     }
     .last__article-section-image6 {
         left: -50px;
@@ -1527,6 +1572,99 @@
     .last__article-second-photos-title {
         margin-left: 20px;
         font-size: 50px;
+    }
+    .cards {
+        padding: 100px 0 100px 0;
+        left: 0;
+    }
+    .email-container .footer__email-button {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    .girl-img {
+
+    }
+    .logo-text {
+        font-size: 24px;
+    }
+    .plane-img {
+        left: -250px;
+    }
+    .girl-img {
+        margin: 100px 0 100px 0;
+        left: 0px;
+        top: 1370px;
+        width: 350px;
+    }
+    .card-icon {
+        left: 10px;
+        top: 7830px;
+        width: 370px;
+        margin-top: 70px;
+    }
+    .last__article-second-header {
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .last__article-second-photos-title {
+        margin-left: 60px;
+    }
+    .last__article-section-block {
+        left: -10px;
+        width: 370px;
+        height: 650px;
+        padding: 230px 0 20px 0;
+    }
+    .last__article-section-image6 {
+        left: -50px;
+        top: -240px;
+        width: 30px;
+    }
+    .last__article-section-image5 {
+        left: 25px;
+        top: -240px;
+        width: 30px;
+    }
+    .last__article-section-image4 {
+        left: -35px;
+        top: -145px;
+        width: 30px;
+    }
+    .article__second-description {
+        top: -180px;
+        left: -10px;
+        font-size: 16px;
+    }
+    .article__second-city-name {
+        top: -190px;
+        left: -10px;
+        font-size: 14px;
+    }
+    .last__article-section-image3 {
+        left: 160px;
+        top: -145px;
+        width: 30px;
+    }
+    .last__article-section-image2 {
+        left: 240px;
+        top: -145px;
+        width: 30px;
+    }
+    .last__article-section-image1 {
+        left: 320px;
+        top: -145px;
+        width: 30px;
+    }
+    .footer__main-names-left {
+        left: -10px;
+        font-size: 16px;
+    }
+    .footer__main-names {
+        left: 20px;
+        font-size: 16px;
     }
 }
 
