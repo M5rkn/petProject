@@ -4,6 +4,12 @@
     max-height: 400px;
 }
 
+html, body {
+    overflow-x: hidden; /* Убираем горизонтальный скролл */
+    max-width: 100%;
+}
+
+
 .container {
     max-width: 1400px;
     width: 100%; /* Делает адаптивным */
