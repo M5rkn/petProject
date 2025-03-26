@@ -410,7 +410,7 @@
         top: 0;
     }
     .footer__email-input {
-        width: 200px;
+        width: 150px;
     }
     .footer__contact-newsletter {
         left: 360px;
@@ -561,7 +561,7 @@
         top: 0;
     }
     .footer__email-input {
-        width: 200px;
+        width: 160px;
     }
     .footer__contact-newsletter {
         left: 300px;
@@ -742,7 +742,7 @@
     }
     .email-container .footer__email-button {
         position: relative;
-        left: 0px;
+        left: 0;
     }
 }
 
