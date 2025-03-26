@@ -1375,7 +1375,7 @@
         margin: auto;
         background-color: #555;
         position:relative;
-        top: -330px;
+        top: -300px;
         left: 130px;
         color: #fff;
         border-radius: 10px;
@@ -1383,7 +1383,7 @@
     .girl-img {
         margin: 100px 0 100px 0;
         left: 10px;
-        top: 1370px;
+        top: 1250px;
         width: 350px;
     }
     .card-container {
